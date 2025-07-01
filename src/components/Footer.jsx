@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div>
-  <footer className="bg-dark text-white mt-5 py-4">
+  <footer className="bg-dark text-white ">
       <div className="container text-center">
         <p className="mb-2">&copy; {new Date().getFullYear()} Your Website Name. All rights reserved.</p>
         <div>

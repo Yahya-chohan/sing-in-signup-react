@@ -1,0 +1,11 @@
+.nav-:hover {
+  color: #008b46 !important; /* Blue */
+
+}
+.nav-{
+    text-decoration: none;
+    margin: 5px;
+    color: #f4fcf6;
+    font-weight: 500;
+    font-size: 18px;
+}

@@ -1,6 +1,9 @@
 import React from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import About from '../pages/About'
 
 export default function SignUp() {
+   const navgate = useNavigate();
   return (
     <div>   
           <form style={{width:"400px "  }} className='mx-auto border border-gray-800 rounded mt-5 p-4'>
@@ -23,7 +26,7 @@ export default function SignUp() {
     <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div> */}
-  <button type="submit" class="btn btn-primary">Submit</button>
+<button onClick={()=>{navgate("/home")}} type='button' class="btn btn-primary">Submit</button>
 </form></div>
   )
 }
